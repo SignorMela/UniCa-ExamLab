@@ -1,0 +1,15 @@
+{
+    "security.workspace.trust.enabled": false,
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.startupEditor": "none",
+    "window.menuBarVisibility": "visible",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "code-runner.executorMap": {
+        "c": "cd $dir && gcc -std=c11 -Wall -Wextra $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ -std=c++2a $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}"
+}

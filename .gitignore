@@ -1,0 +1,44 @@
+# ==============================================================================
+# UniCa-ExamLab .gitignore
+# ==============================================================================
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# C/C++ Compiled binaries, object files & debug symbols
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.out
+*.exe
+*.dSYM/
+main
+main.exe
+
+# Student submission workspace (keep directory tracked with .gitkeep only)
+student_submission/*
+!student_submission/.gitkeep
+
+# Exam submission archives (never commit student submission zips)
+*.zip
+consegna_esame.zip
+
+# Editor & temporary backup files
+*.swp
+*.swo
+*~
+.idea/
+
+# Logs
+*.log

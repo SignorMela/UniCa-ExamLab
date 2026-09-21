@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>originatorVersion</key>
+    <string>SEB_UniCa_ExamLab_1.0</string>
+    
+    <!-- Pagina iniziale: VS Code (Editor di Programmazione) -->
+    <key>startURL</key>
+    <string>http://localhost:8080</string>
+    
+    <!-- Visualizzazione finestra e controlli -->
+    <key>browserViewMode</key>
+    <integer>0</integer>
+    <key>browserWindowAllowAddressBar</key>
+    <false/>
+    <key>browserWindowShowReloadButton</key>
+    <true/>
+    <key>browserWindowAllowReload</key>
+    <true/>
+    <key>allowPreferencesWindow</key>
+    <false/>
+    <key>showTaskBar</key>
+    <true/>
+    <key>taskBarHeight</key>
+    <integer>44</integer>
+    <key>showReloadButton</key>
+    <true/>
+    <key>showTime</key>
+    <true/>
+
+    <!-- Navigazione Avanti/Indietro abilitata per tornare alla traccia -->
+    <key>allowBrowsingBackForward</key>
+    <true/>
+    <key>showBackForward</key>
+    <true/>
+    <key>browserWindowShowBackForward</key>
+    <true/>
+    
+    <!-- ================================================================= -->
+    <!-- GESTIONE FINESTRE MULTIPLE & SBLOCCO HOST/PORTA ESTERNA          -->
+    <!-- ================================================================= -->
+    <key>allowOpenInNewWindow</key>
+    <true/>
+    <key>newBrowserWindowByLinkPolicy</key>
+    <integer>2</integer>
+    <key>newBrowserWindowByScriptPolicy</key>
+    <integer>2</integer>
+    <!-- FONDAMENTALE: Non bloccare link verso host o porte differenti (es. da 8000 a 8080) -->
+    <key>newBrowserWindowByLinkBlockForeign</key>
+    <false/>
+    <key>newBrowserWindowByScriptBlockForeign</key>
+    <false/>
+    <key>newBrowserWindowAllowReload</key>
+    <true/>
+    <key>newBrowserWindowShowURL</key>
+    <false/>
+    <key>newBrowserWindowAllowAddressBar</key>
+    <false/>
+    
+    <!-- ================================================================= -->
+    <!-- GESTIONE TRASFERIMENTO FILE (Solo UPLOAD consentito, DOWNLOAD vietato) -->
+    <!-- ================================================================= -->
+    <key>allowDownUploads</key>
+    <true/>
+    <key>allowDownAndUpload</key>
+    <true/>
+    <key>allowUploads</key>
+    <true/>
+    <key>allowDownloads</key>
+    <false/>
+    <key>allowOpenAndSavePanel</key>
+    <true/>
+    <key>allowCustomDownUploadLocation</key>
+    <true/>
+    <key>chooseFileToUploadPolicy</key>
+    <integer>0</integer>
+    <key>openDownloadsInBrowser</key>
+    <false/>
+    
+    <!-- ================================================================= -->
+    <!-- FILTRO URL (Disabilitato: l'address bar è nascosta, quindi lo      -->
+    <!-- studente non può digitare URL esterni, ma non blocchiamo WebSocket) -->
+    <!-- ================================================================= -->
+    <key>URLFilterEnable</key>
+    <false/>
+    <key>URLFilterEnableContentFilter</key>
+    <false/>
+    
+    <!-- Criteri di Lockdown Kiosk -->
+    <key>allowSwitchToApplications</key>
+    <false/>
+    <key>allowScreenSharing</key>
+    <false/>
+    <key>enableAltEsc</key>
+    <false/>
+    <key>enableAltF4</key>
+    <false/>
+    <key>enableAltTab</key>
+    <false/>
+    <key>enableCtrlEsc</key>
+    <false/>
+    <key>enableEsc</key>
+    <false/>
+    <key>enableF1</key>
+    <false/>
+    <key>enableF2</key>
+    <false/>
+    <key>enableF3</key>
+    <false/>
+    <key>enableF4</key>
+    <false/>
+    <key>enableF5</key>
+    <true/>
+    <key>enableF6</key>
+    <false/>
+    <key>enableF7</key>
+    <false/>
+    <key>enableF8</key>
+    <false/>
+    <key>enableF9</key>
+    <false/>
+    <key>enableF10</key>
+    <false/>
+    <key>enableF11</key>
+    <false/>
+    <key>enableF12</key>
+    <false/>
+    <key>enablePrintScreen</key>
+    <false/>
+    <key>enableStartMenu</key>
+    <false/>
+    <key>hookKeys</key>
+    <true/>
+    <key>allowQuit</key>
+    <true/>
+</dict>
+</plist>

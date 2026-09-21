@@ -1,0 +1,25 @@
+services:
+  vscode-c:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: unica-examlab-vscode-c:latest
+    container_name: unica-examlab-vscode
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      - EXAMLAB_LISTEN_PORT=8080
+    volumes:
+      # Mount student_submission directory from host into VS Code workspace
+      # All code written by the student persists on the host machine
+      - ./student_submission:/vscode/workspace
+    # Disable extension marketplace and load initial exam template
+    command: ["--disable-marketplace", "--load-example"]
+    # Resource limits to prevent host machine freezes (e.g. infinite loops or fork bombs)
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 2048M
+
